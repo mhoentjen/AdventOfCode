@@ -1,7 +1,7 @@
 ﻿// Trying new console template introduced with .NET 6...
 // See https://aka.ms/new-console-template for more information
 
-using Day6;
+using Day06;
 
 var inputPart1 = ParseInputPart1(File.ReadLines(@"..\..\..\input.txt").ToList()[0]);
 var testPart1 = ParseInputPart1(File.ReadLines(@"..\..\..\test.txt").ToList()[0]);

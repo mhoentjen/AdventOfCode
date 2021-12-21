@@ -1,4 +1,4 @@
-namespace Day6;
+namespace Day06;
 
 public record Fish
 {
