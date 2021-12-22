@@ -3,8 +3,8 @@
 var input = ParseInput(File.ReadLines(@"..\..\..\input.txt").ToList());
 var test = ParseInput(File.ReadLines(@"..\..\..\test.txt").ToList());
 
-//Console.WriteLine($"Part 1, test answer is {Part1(test)}");
-//Console.WriteLine($"Part 1, final answer is {Part1(input)}");
+Console.WriteLine($"Part 1, test answer is {Part1(test)}");
+Console.WriteLine($"Part 1, final answer is {Part1(input)}");
 Console.WriteLine($"Part 2, test answer is {Part2(test)}");
 Console.WriteLine($"Part 2, final answer is {Part2(input)}");
 
