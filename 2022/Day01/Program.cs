@@ -1,12 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-var input = ParseInput(File.ReadLines(@"../../../input.txt").ToList());
+﻿var input = ParseInput(File.ReadLines(@"../../../input.txt").ToList());
 
 Console.WriteLine($"Part 1, final answer is {Part1(input)}");
 Console.WriteLine($"Part 2, final answer is {Part2(input)}");
 
-
-List<Elf> ParseInput(IReadOnlyList<string> inputToParse)
+List<Elf> ParseInput(IEnumerable<string> inputToParse)
 {
     var elves = new List<Elf> { new() };
     foreach (var line in inputToParse)
