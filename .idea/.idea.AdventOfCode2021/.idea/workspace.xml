@@ -14,59 +14,18 @@
     <projectFile>Day11/Day11.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8278d03b-3966-4f0d-b859-304f1caa434c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/AdventOfCode2021.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/Day01.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02/Day02.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day03/Day03.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day03/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day03/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day03/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/Day04.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/Day05.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day06/Day06.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day06/Fish.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day06/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day06/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day06/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day07/Day07.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day07/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day07/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day07/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08/Day08.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day09/Day09.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day09/Point.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day09/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day09/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day09/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day10/Day10.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day10/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day10/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day10/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/Day11.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/Point.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/test.txt" beforeDir="false" />
+    <list default="true" id="8278d03b-3966-4f0d-b859-304f1caa434c" name="Changes" comment="Move 2021 exercises to separate folder, make them run in Linux and on .NET 6.0">
+      <change afterPath="$PROJECT_DIR$/AoCInputDownloader/AoCInputDownloader.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AoCInputDownloader/AoCInputDownloader.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -90,25 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.2021\Day10">
-    <configuration name="2021\Day07" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/2021/Day07/bin/Debug/net6.0/Day07" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021/Day07/bin/Debug/net6.0" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day07/Day07.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="net6.0" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected=".NET Project.2022\Day01">
     <configuration name="2021\Day08" type="DotNetProject" factoryName=".NET Project" temporary="true">
       <option name="EXE_PATH" value="$PROJECT_DIR$/2021/Day08/bin/Debug/net6.0/Day08" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -172,6 +113,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/2021/Day11/Day11.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net6.0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="2022\Day01" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/2022/Day01/bin/Debug/net6.0/Day01" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022/Day01/bin/Debug/net6.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/2022/Day01/Day01.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -381,11 +340,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Project.2022\Day01" />
         <item itemvalue=".NET Project.2021\Day11" />
         <item itemvalue=".NET Project.2021\Day10" />
         <item itemvalue=".NET Project.2021\Day09" />
         <item itemvalue=".NET Project.2021\Day08" />
-        <item itemvalue=".NET Project.2021\Day07" />
       </list>
     </recent_temporary>
   </component>
@@ -398,8 +357,16 @@
       <option name="presentableId" value="Default" />
       <updated>1669891174789</updated>
       <workItem from="1669891183674" duration="195000" />
-      <workItem from="1669891430002" duration="938000" />
+      <workItem from="1669891430002" duration="2670000" />
     </task>
+    <task id="LOCAL-00001" summary="Move 2021 exercises to separate folder, make them run in Linux and on .NET 6.0">
+      <created>1669892636628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669892636628</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,5 +387,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Move 2021 exercises to separate folder, make them run in Linux and on .NET 6.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move 2021 exercises to separate folder, make them run in Linux and on .NET 6.0" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AoCInputDownloader/AoCInputDownloader.cs</url>
+          <line>6</line>
+          <properties documentPath="$PROJECT_DIR$/AoCInputDownloader/AoCInputDownloader.cs" initialLine="6" containingFunctionPresentation="method 'DownloadStringAsync'">
+            <startOffsets>
+              <option value="142" />
+            </startOffsets>
+            <endOffsets>
+              <option value="172" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
