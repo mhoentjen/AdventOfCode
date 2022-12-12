@@ -10,10 +10,10 @@ Dictionary<string, (int, int)> directions = new()
     {"Down", (0, 1)}
 };
 
-Console.WriteLine($"Part 1, test answer is {Part1(testTrees)}");
+// Console.WriteLine($"Part 1, test answer is {Part1(testTrees)}");
 Console.WriteLine($"Part 1, answer is {Part1(inputTrees)}");
-Console.WriteLine($"Part 2, test answer is {Part2(testTrees)}");
-Console.WriteLine($"Part 2, answer is {Part2(inputTrees)}");
+// Console.WriteLine($"Part 2, test answer is {Part2(testTrees)}");
+// Console.WriteLine($"Part 2, answer is {Part2(inputTrees)}");
 
 int Part1(List<Tree> trees)
 {
