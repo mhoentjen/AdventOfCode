@@ -27,11 +27,10 @@ fn read_from_file(file_path: &str) -> (Vec<(u64, u64)>, Vec<u64>) {
 fn main() {
     let file_path = "input.txt";
     let (ranges, ingredients) = read_from_file(file_path);
-    println!("Part 1 Result: {}", part1(ranges, ingredients));
+    println!("Part 2 Result: {}", part2(ranges));
 }
 
 fn part1(ranges: Vec<(u64, u64)>, ingredients: Vec<u64>) -> u64 {
-    // Implement part 1 logic here
     let fresh = ingredients
         .iter()
         .filter(|ingredient| {
@@ -42,3 +41,27 @@ fn part1(ranges: Vec<(u64, u64)>, ingredients: Vec<u64>) -> u64 {
         .count() as u64;
     fresh
 }
+
+fn part2(ranges: Vec<(u64, u64)>) -> u64 {
+    let mut sorted_ranges = ranges.clone();
+    sorted_ranges.sort_by_key(|&(start, _)| start);
+
+    let mut merged_ranges: Vec<(u64, u64)> = vec![];
+    for range in sorted_ranges {
+        if let Some(last) = merged_ranges.last_mut() {
+            if ranges_overlap(last, &range) {
+                last.1 = std::cmp::max(last.1, range.1);
+            } else {
+                merged_ranges.push(range);
+            }
+        } else {
+            merged_ranges.push(range);
+        }
+    }
+    merged_ranges.iter().map(|(r1, r2)| r2 - r1 + 1).sum()
+}
+
+fn ranges_overlap(range1: &(u64, u64), range2: &(u64, u64)) -> bool {
+    !(range1.1 < range2.0 || range2.1 < range1.0)
+}
+
